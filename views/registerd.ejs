@@ -1,0 +1,39 @@
+<%- include("partials/header.ejs")%>
+
+<%- include("partials/nav.ejs")%>
+<link rel="stylesheet" href="/stylesheets/style1.css">
+<div class="reg-container">
+    
+    <div class="box-reg-container-box2">
+        <div class="box-reg-container-box2-2">
+            <form action="/Register" method="post">
+                <input type="text" name="author" placeholder="Author"><br><br>
+                <select name="country" >
+                    <option value="">Select Country</option>
+                    <%countryNames.forEach(function(C){%>
+                        <option value="<%= C%>"><%= C%></option>
+                    <%})%>
+                </select> <br><br>
+                <input type="text" placeholder="Image link" name="imagelink"><br><br>
+                <input type="text" placeholder="TITLE" name="title"><br><br>
+                <input type="text" placeholder="Year of Publication" name="publication"><br><br>
+                <select name="language" >
+                    <option value="">Select Language</option>
+                    <%languageName.forEach(function(l){%>
+                        <option value="<%= l.name%>"><%= l.name %></option>
+                    <%})%>
+                </select> <br><br>
+                <input type="text" placeholder="link" name="link"><br><br>
+                <input type="number" name="page" placeholder="pages"><br><br>
+                <button>Register Book</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="box-reg-container-box1">
+
+    </div>
+    
+</div>
+<%- include("partials/footer.ejs")%>

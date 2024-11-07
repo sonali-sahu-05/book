@@ -1,0 +1,36 @@
+<%- include("partials/header.ejs")%>
+<%- include("partials/nav.ejs")%>
+<link rel="stylesheet" href="/stylesheets/show.css">
+<div class="show-container-nav-space">
+
+</div>
+<div class="show-container">
+    <% if (book.length===0) { %>
+
+        <h2 style="color: tomato; text-align: center;">No Books Registered</h2>
+
+        <% } %>
+
+            <% book.forEach(function(books,idx){ %>
+                <div class="book-card">
+                    <img src="<%= books.imageLink %>" alt="">
+                    <h3>
+                        <%= books.title%>
+                    </h3>
+                    <p>
+                        <%= books.author%>
+                    </p>
+                    <a target="_blank" href="<%= books.link%>">Explore</a>
+
+                    <p>
+                        <a href="/delete/<%=idx%>">Delete</a>
+                        <a href="/update/<%=idx%>">Update</a>
+                    </p>
+
+                </div>
+                <% }) %>
+
+</div>
+
+
+<%- include("partials/footer.ejs")%>

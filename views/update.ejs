@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs")%>
+<%- include("partials/nav.ejs")%>
+<link rel="stylesheet" href="/stylesheets/style.css">
+<div class="reg-container">
+    <div class="box">
+        <form action="/update/<%=index%>" method="post">
+            <input value="<%= book.author%>" type="text" name="author" placeholder="Author"><br><br>
+            <select name="country" >
+                <option value="">Select Country</option>
+                <%countryNames.forEach(function(C){%>
+                    <option <%= book.country === C ? "selected" : ""%> value="<%= C%>"><%= C%></option>
+                <%})%>
+            </select> <br><br>
+            <input value="<%= book.imagelink%>" type="text" placeholder="Image link" name="imagelink"><br><br>
+            <input value="<%= book.title%>" type="text" placeholder="TITLE" name="title"><br><br>
+            <input value="<%= book.publication%>" type="text" placeholder="Year of Publication" name="publication"><br><br>
+            <select name="language" >
+                <option value="">Select Language</option>
+                <%languageName.forEach(function(l){%>
+                    <option <%= book.language === l.name ? "selected" : ""%> value="<%= l.name%>"> <%= l.name %> </option>
+                <%})%>
+            </select> <br><br>
+            <input value="<%=book.link%>" type="text" placeholder="link" name="link"><br><br>
+            <input value="<%=book.page%>" type="number" name="page" placeholder="pages"><br><br>
+            <button>Update Book</button>
+        </form>
+    </div>
+</div>
+<%- include("partials/footer.ejs")%>

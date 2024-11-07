@@ -1,0 +1,42 @@
+nav{
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vmax;
+  box-shadow: 0 0 10px #089da1;
+  z-index: 999;
+}
+nav img{
+  height: 500%;
+  cursor: pointer;
+  /* width: 200px; */
+}
+nav ul{
+  display: flex;
+  gap: 2vmax;
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.5vmax;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: black;
+}
+nav ul a:hover{
+  color: #089da1;
+}
+
+nav .social_icon i{
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+nav .social_icon i:hover{
+  color: #089da1;
+  cursor: pointer;
+}

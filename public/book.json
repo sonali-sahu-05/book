@@ -1,0 +1,122 @@
+[
+    {
+      "author": "Chinua Achebe",
+      "country": "Nigeria",
+      "imageLink": "https://tse3.mm.bing.net/th?id=OIP.C2FhdGC5cgnaK9FdTHFfTgAAAA&pid=Api&P=0&h=220",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+      "pages": 209,
+      "title": "Things Fall Apart",
+      "year": 1958
+    },
+    {
+      "author": "Hans Christian Andersen",
+      "country": "Denmark",
+      "imageLink": "https://tse1.mm.bing.net/th?id=OIP.FV0ogAfio9si1ROSItZ4QgHaML&pid=Api&P=0&h=220",
+      "language": "Danish",
+      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+      "pages": 784,
+      "title": "Fairy tales",
+      "year": 1836
+    },
+    {
+      "author": "Dante Alighieri",
+      "country": "Italy",
+      "imageLink": "https://i.pinimg.com/originals/0a/50/e5/0a50e50342a831eff7ff2d39bddc621c.jpg",
+      "language": "Italian",
+      "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+      "pages": 928,
+      "title": "The Divine Comedy",
+      "year": 1315
+    },
+    {
+      "author": "Unknown",
+      "country": "Sumer and Akkadian Empire",
+      "imageLink": "https://tse3.mm.bing.net/th?id=OIP.1LjYLHi3lmTegjQVrqvqmwAAAA&pid=Api&P=0&h=220",
+      "language": "Akkadian",
+      "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+      "pages": 160,
+      "title": "The Epic Of Gilgamesh",
+      "year": -1700
+    },
+    {
+      "author": "Unknown",
+      "country": "Achaemenid Empire",
+      "imageLink": "https://tse4.mm.bing.net/th?id=OIP.W8IfqyFALNj_CfpwiDCKVQHaLH&pid=Api&P=0&h=220",
+      "language": "Hebrew",
+      "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
+      "pages": 176,
+      "title": "The Book Of Job",
+      "year": -600
+    },
+    {
+      "author": "Valmiki",
+      "country": "India",
+      "imageLink": "https://religionworld.s3.amazonaws.com/uploads/2018/01/ramayana.jpg",
+      "language": "Sanskrit",
+      "link": "https://en.wikipedia.org/wiki/Ramayana\n",
+      "pages": 152,
+      "title": "Ramayana",
+      "year": -450
+    },
+    {
+      "author": "Virgil",
+      "country": "Roman Empire",
+      "imageLink": "https://tse4.mm.bing.net/th?id=OIP.xxUFK2FO0hpfqr9mmRMCrgHaJ4&pid=Api&P=0&h=220",
+      "language": "Classical Latin",
+      "link": "https://en.wikipedia.org/wiki/Aeneid\n",
+      "pages": 442,
+      "title": "The Aeneid",
+      "year": -23
+    },
+    {
+      "author": "Vyasa",
+      "country": "India",
+      "imageLink": "https://tse3.mm.bing.net/th?id=OIP.v7iL4H8eN7WN3-RMgnGm2QHaJ3&pid=Api&P=0&h=220",
+      "language": "Sanskrit",
+      "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+      "pages": 276,
+      "title": "Mahabharata",
+      "year": -700
+    },
+    {
+      "author": "Walt Whitman",
+      "country": "United States",
+      "imageLink": "https://tse1.mm.bing.net/th?id=OIP.37LujslHCtziK_U6GSY5rAHaLy&pid=Api&P=0&h=220",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+      "pages": 152,
+      "title": "Leaves of Grass",
+      "year": 1855
+    },
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "https://almabooks.com/wp-content/uploads/2016/10/9781847494009.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+      "pages": 216,
+      "title": "Mrs Dalloway",
+      "year": 1925
+    },
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "https://tse1.mm.bing.net/th?id=OIP.bAEHQmhLb-aTj_QtKyUGtwHaJ4&pid=Api&P=0&h=220",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+      "pages": 209,
+      "title": "To the Lighthouse",
+      "year": 1927
+    },
+    {
+      "author": "Marguerite Yourcenar",
+      "country": "France/Belgium",
+      "imageLink": "https://tse3.mm.bing.net/th?id=OIP.ynZDyuleRKvO87H2vc0bGgHaLO&pid=Api&P=0&h=220",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
+      "pages": 408,
+      "title": "Memoirs of Hadrian",
+      "year": 1951
+    }
+  ]

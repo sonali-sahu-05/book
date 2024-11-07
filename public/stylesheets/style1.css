@@ -1,0 +1,334 @@
+
+.reg-container{
+  /* position: relative; */
+  height: calc(100vh - 10vh);
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgba(0, 0, 255, 0.389); */
+  display: flex;
+  padding-top: 10vh;
+  border-top: 1px solid transparent;
+  /* align-items: center;
+  justify-content: center; */
+  
+}
+
+.box-reg-container-box1{
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/homepage/register-main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 22px; */
+  /* background-color: #089da1; */
+  
+  /* width: 30%;
+  height: 80%;
+  border-top-left-radius: 50px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-bottom-left-radius: 50px;
+  border-left: 5px solid red;
+  border-right: 5px double red ;
+  padding: 15px; */
+}
+
+.box-reg-container-box2{
+  width: 50%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/homepage/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 1px dotted #089DA1;
+  /* width: 30%;
+  height: 80%;
+  border-top-left-radius: 50px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-bottom-left-radius: 50px;
+  border-left: 5px solid red;
+  border-right: 5px double red ;
+  padding: 15px; */
+}
+
+.box-reg-container-box2-2{
+  width: 80%;
+  height: 80%;
+  padding: 15px;
+  /* border-top-right-radius: 50px;
+  border-top: 5px double black;
+  border-bottom: 5px double black;
+  border-bottom-right-radius: 50px;
+  border-left: 5px solid black;
+  border-right: 5px double black ; */
+}
+
+.box-reg-container-box2-2>form>input{
+  width: 100%;
+  padding: 8px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid #089DA1;
+  /* border-bottom: 5px solid #089DA1;
+  border-left: 5px solid #089DA1;
+  border-top: 1px solid #089DA1;
+  border-right: 1px solid #089DA1;
+  border-radius: 10px;
+   border-left: 1px solid #089DA1;
+  border-radius: 10px; */
+}
+
+.box-reg-container-box2-2>form>select{
+  width: 100%;
+  padding: 8px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid #089DA1;
+
+  /* border-bottom: 5px solid #089DA1;
+  border-left: 5px solid #089DA1;
+  border-top: 1px solid #089DA1;
+  border-right: 1px solid #089DA1;
+  border-radius: 10px; */
+}
+
+.box-reg-container-box2-2>form>button{
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+  padding: 5px;
+  background-color: #089DA1;
+  border: none;
+  font-size: 20px;
+} 
+
+
+/* home page css */
+
+.main{
+  /* height: calc(100vh - 10vh); */
+  height: 100vh;
+  width: 95vw;
+  /* background-color: rgba(0, 0, 255, 0.389); */
+  /* display: flex; */
+  /* padding-top: 10vh; */
+  border-top: 1px solid transparent;
+  background-image: url(../images/homepage/bg.png) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: relative; */
+  /* top: 10%; */
+}
+
+.main h1{
+  position: relative;
+  font-size: 55px;
+  top: 80px;
+  left: 25px;
+}
+
+.main h1 span{
+  color: #089da1;
+}
+
+.main p{
+  width: 650px;
+  text-align: justify;
+  line-height: 22px;
+  position: relative;
+  top: 125px;
+  left: 25px;
+}
+
+.main .main_tag .main_btn{
+  background: #089da1;
+  padding: 10px 20px;
+  position: relative;
+  top: 200px;
+  left: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.main .main_img img{
+  width: 780px;
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
+
+/* Services
+.services{
+  width: 95vw;
+  height: auto;
+  margin: 35px 0;
+}
+
+.services .services_box{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services .services_box .services_card{
+  text-align: center;
+  width: 310px;
+  height: auto;
+  box-shadow: 0 0 8px #089da1;
+  padding: 15px 10px;
+}
+
+.services .services_box .services_card i{
+  color: #089da1;
+  font-size: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.services .services_box .services_card h3{
+  margin-bottom: 10px;
+} */
+
+/* About */
+.about{
+  height: calc(100vh - 10vh);
+  height: 100vh;
+  width: 96vw;
+  /* background-color: rgba(0, 0, 255, 0.389); */
+  display: flex;
+  padding-top: 10vh;
+  border-top: 1px solid transparent; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .about_image img{
+  width: 800px;
+}
+
+.about .about_tag h1{
+  font-size: 50px;
+  position: relative;
+  bottom: 35px;
+}
+
+.about .about_tag p{
+  line-height: 22px;
+  width: 650px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.about .about_tag .about_btn{
+  padding: 10px 20px;
+  background: #089da1;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+}
+
+
+/*Footer*/
+
+footer{
+  width: 100%;
+  background: #eaeaea;
+}
+
+footer .footer_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer_main .tag{
+  margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+footer .footer_main .tag p{
+  width: 250px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+footer .footer_main .tag h1{
+  font-size: 25px;
+  margin: 25px 0;
+  color: #000;
+}
+
+footer .footer_main .tag a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+  margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+  margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+  width: 230px;
+  height: 30px;
+  background: rgba(202,202,202);
+  border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+  width: 200px;
+  padding: 2px 0;
+  position: relative;
+  top: 17%;
+  left: 6%;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+  padding: 7px 15px;
+  background: #089da1;
+  border: none;
+  margin-top: 15px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer .end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: #000;
+}
+
+footer .end span{
+  color: #089da1;
+  margin-left: 10px;
+} 
+
+/* about page */
